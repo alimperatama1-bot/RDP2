@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-4",
+  "hostname": "rdpfree-5",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T03:20:53Z",
-  "expires_at": "2026-10-11T09:15:53Z",
+  "started_at": "2026-10-11T05:16:38Z",
+  "expires_at": "2026-10-11T11:11:38Z",
   "duration_menit": 355,
-  "run_id": "38107835516",
-  "run_number": "4",
-  "run_url": "https://github.com/alimperatama1-bot/RDP2/actions/runs/38107835516",
+  "run_id": "38114005452",
+  "run_number": "5",
+  "run_url": "https://github.com/alimperatama1-bot/RDP2/actions/runs/38114005452",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -41,28 +41,28 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "debug": "",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
     "dir": "C:\\XyRDP\\grafis",
-    "mode": "software",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "mesa": "26.2.4",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "mode": "software",
+    "debug": "",
+    "adapters": "Microsoft Hyper-V Video",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
     "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "adapters": "Microsoft Hyper-V Video"
+    "mesa": "26.2.4",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)"
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T03:21:28Z"
+  "stopped_at": "2026-10-11T05:17:16Z"
 }
